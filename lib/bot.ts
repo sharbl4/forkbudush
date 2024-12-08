@@ -138,19 +138,22 @@ bot.on("message", async (ctx) => {
           return;
         }
         info.age = Number(ctx.msg.text);
-        await ctx.reply("Круто! Введи свои интересы!");
+        await ctx.reply("Круто! Выбери свои интересы!");
+        await ctx.reply("1 - Coddinп 2 -Web-desigm 3 - SMM 4 UX-design 5 - UI-design 6 - PC-building, 7 -PC-repair"
         setState("setInterests");
         break;
 
         
-    case "setInterests":
+      case "setInterests":
        // Отправить клавиатуру с сообщением
         await ctx.reply("Давай, введи кофейню, где хочешь кофе попить")
+        await ctx.reply("1 - Coddinп 2 -Web-desigm 3 - SMM 4 UX-design 5 - UI-design 6 - PC-building, 7 -PC-repair")
         setState("setCoffe");
         break;
 
 
       case "setCoffee":
+        await ctx.reply("1 -Скуратов. 70 лет Октября, 7.  2 Скуратов. Мира, 7А.   3 -Скуратов. Красный Путь, 63. 4 - Скуратов. Иртышская Набережная, 30.  5 - Энитайм. Лобкова, 6/1.")
         await ctx.reply(
           "Хорошо! Твоя анкета создана! Жди новых сообщений с предложением попить кофейку!",
         );
