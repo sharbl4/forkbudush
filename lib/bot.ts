@@ -19,8 +19,9 @@ export const info: UserInfo = {
   id: 0,
   name: "",
   age: 0,
-  interests: "",
-  coffee:"",
+  interests: [],
+  coffee: number,
+  time: number;
   done: false,
   state: "",
 };
