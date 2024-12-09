@@ -8,8 +8,6 @@ export interface UserInfo {
   coffee:string;
   done: boolean;
   state: string;
-  time: string;
-  rating: number;
 }
 
 
