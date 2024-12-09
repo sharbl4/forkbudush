@@ -139,7 +139,7 @@ bot.on("message", async (ctx) => {
         }
         info.age = Number(ctx.msg.text);
         await ctx.reply("Круто! Выбери свои интересы!");
-        await ctx.reply("1 - Coddinп 2 -Web-desigm 3 - SMM 4 UX-design 5 - UI-design 6 - PC-building, 7 -PC-repair");
+        await ctx.reply("1 - Codding \n2 -Web-design \n3 - SMM \n4 UX-design \n5 - UI-design \n6 - PC-building \n7 -PC-repair");
         setState("setInterests");
         break;
 
@@ -147,14 +147,14 @@ bot.on("message", async (ctx) => {
       case "setInterests":
        // Отправить клавиатуру с сообщением
         await ctx.reply("Давай, введи кофейню, где хочешь кофе попить")
-        await ctx.reply("1 -Скуратов. 70 лет Октября, 7.  2 Скуратов. Мира, 7А.   3 -Скуратов. Красный Путь, 63. 4 - Скуратов. Иртышская Набережная, 30.  5 - Энитайм. Лобкова, 6/1.")
+        await ctx.reply("1 - Скуратов. 70 лет Октября, 7.  \n2 - Скуратов. Мира, 7А.   \n3 - Скуратов. Красный Путь, 63. \n4 - Скуратов. Иртышская Набережная, 30.  \n5 - Энитайм. Лобкова, 6/1.")
         setState("setCoffee");
         break;
 
 
       case "setCoffee":
         await ctx.reply(
-          "Хорошо! Твоя анкета создана! Жди новых сообщений с предложением попить кофейку!",
+          "Хорошо! Твоя анкета создана! Жди новых сообщений с предложением попить кофейку! Они приходят один раз в день, в 12:00",
         );
         break;
 
