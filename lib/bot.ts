@@ -20,8 +20,8 @@ export const info: UserInfo = {
   name: "",
   age: 0,
   interests: [],
-  coffee: number,
-  time: number;
+  coffee: 0,
+  time: 0;
   done: false,
   state: "",
 };
