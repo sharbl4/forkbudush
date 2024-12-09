@@ -4,7 +4,7 @@ import { changesKeyboard, menuKeyboard, yesOrNo, coffeeKeyboard, interesKeyboard
 
 import { MyContext, UserInfo, UserData } from "./interfaces.ts"; //импорт интерфейсов
 
-import { reviewProfile, setState } from "./functions.ts"; //импорт функций
+import { reviewProfile, setState, updateRating } from "./functions.ts"; //импорт функций
 
 
 //база данных deno
