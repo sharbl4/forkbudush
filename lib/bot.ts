@@ -1,6 +1,6 @@
 import { Bot, InlineKeyboard } from "https://deno.land/x/grammy@v1.32.0/mod.ts";
 
-import { changesKeyboard, menuKeyboard, yesOrNo, coffeeKeyboard, interesKeyboard  } from "./keyboards.ts"; // импорт клавиатур
+import { changesKeyboard, menuKeyboard, yesOrNo, coffeeKeyboard, interesKeyboard, acceptKeyboard  } from "./keyboards.ts"; // импорт клавиатур
 
 import { MyContext, UserInfo, UserData } from "./interfaces.ts"; //импорт интерфейсов
 
