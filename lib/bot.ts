@@ -139,7 +139,7 @@ bot.on("message", async (ctx) => {
         }
         info.age = Number(ctx.msg.text);
         await ctx.reply("Круто! Выбери свои интересы!");
-        await ctx.reply("1 - Coddinп 2 -Web-desigm 3 - SMM 4 UX-design 5 - UI-design 6 - PC-building, 7 -PC-repair"
+        await ctx.reply("1 - Coddinп 2 -Web-desigm 3 - SMM 4 UX-design 5 - UI-design 6 - PC-building, 7 -PC-repair");
         setState("setInterests");
         break;
 
@@ -148,7 +148,7 @@ bot.on("message", async (ctx) => {
        // Отправить клавиатуру с сообщением
         await ctx.reply("Давай, введи кофейню, где хочешь кофе попить")
         await ctx.reply("1 - Coddinп 2 -Web-desigm 3 - SMM 4 UX-design 5 - UI-design 6 - PC-building, 7 -PC-repair")
-        setState("setCoffe");
+        setState("setCoffee");
         break;
 
 
