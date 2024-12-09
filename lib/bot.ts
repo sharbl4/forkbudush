@@ -10,7 +10,7 @@ import { reviewProfile, setState } from "./functions.ts"; //импорт фун�
 //база данных deno
 export const database = await Deno.openKv();
 
-export const bot = new Bot<MyContext>(Deno.env.get("BOT_TOKEN") || "7864266027:AAGJL9Dm7MK-GrBj_iRoTd_3wE1u5q-_lZw");
+export const bot = new Bot<MyContext>(Deno.env.get("BOT_TOKEN") || "7785377297:AAHQXYH32S0fE5TOZvuN1GPxxAnHOvT0OXg");
 
 
 
